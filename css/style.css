@@ -1,0 +1,26 @@
+body{
+    background: linear-gradient(to left,#FFF,#11dad3);
+}
+.card:hover {
+  box-shadow: 1px 1px 17px 2px #012a22;
+  transition: 0.5s;
+}
+.card {
+  transition: 0.5s;
+}
+.icons {
+  position: fixed;
+  bottom: 50px;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  right: 30px;
+}
+.icons a {
+  text-decoration: none;
+  background: linear-gradient(45deg, #ff9966 33%, #ff5e62 66%, #8aa9d6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0b2349;
+}
+ 
